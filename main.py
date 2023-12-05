@@ -72,7 +72,7 @@ for col in sheet.columns:
     sheet.column_dimensions[get_column_letter(col[0].column)].width = adjusted_width
 
 # Save the workbook to a file
-file_path = "2024_Calendar_with_Colors_Quarterly.xlsx"
+file_path = "2024_Calendar.xlsx"
 wb.save(file_path)
 
 file_path
